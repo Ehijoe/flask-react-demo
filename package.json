@@ -1,0 +1,35 @@
+{
+	"name": "flask-react-demo",
+	"version": "1.0.0",
+	"description": "A demo react app consuming a flask API.",
+	"main": "frontend/index.js",
+	"repository": "https://github.com/Ehijoe/flask-react-demo.git",
+	"author": "Joseph Alikah <alikahjoseph@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"frontend": "webpack-dev-server",
+		"backend": "python3 run_backend.py",
+		"start": "yarn run frontend & yarn run backend"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.21.0",
+		"@babel/plugin-proposal-class-properties": "^7.18.6",
+		"@babel/plugin-syntax-dynamic-import": "^7.8.3",
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-react": "^7.18.6",
+		"babel-loader": "^9.1.2",
+		"css-loader": "^6.7.3",
+		"html-webpack-plugin": "^5.5.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.76.1",
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1"
+	},
+	"dependencies": {
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.9.0",
+		"semantic-ui-react": "^2.1.4"
+	}
+}

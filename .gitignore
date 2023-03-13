@@ -1,0 +1,16 @@
+# Editor generated files
+*~
+\#*\#
+
+# Python compiled files
+__pycache__/
+
+# yarn
+yarn-error.log
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
